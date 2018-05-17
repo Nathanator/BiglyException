@@ -4,9 +4,9 @@ import sys
 
 def trace_dispatch(frame, event, arg):
     if event == 'exception':
-        exception, value, traceback = arg
+        exc_type, exc, traceback = arg
 
-        print('hello', exception)
+        exc.args = exc.args + ('very sad',)
         return trace_dispatch
 
     else:
