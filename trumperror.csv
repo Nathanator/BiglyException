@@ -1,0 +1,8 @@
+exception;output;testcase
+Missing parentheses in call to 'print'. Did you mean print(.*)?;Dude, watch your brackets!;print ssh
+invalid syntax;Are,you from China?;str a
+name '.*' is not defined;1 + ssg
+expected an indented block;phony whitespace missing;def abc():\nsd
+unexpected EOF while parsing;You are as fast as Stormy Daniels;for i in len(3):\n
+type object '(\w+)' has no attribute '(\w*)';Crooked {1}! Not on {0};str.a
+can't assign to operator;You are a math puppet!;1 + 2 = 0
